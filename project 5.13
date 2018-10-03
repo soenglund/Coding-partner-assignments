@@ -17,6 +17,8 @@ num_rolls = int(input('Enter number of rolls:\n'))
 #while for repeating branch and asking for num_rolls until not true  
 while num_rolls >= 1:
     if num_rolls >= 1:
+    break
+#Sonja--need a break here^
         for i in range(num_rolls):
             die1 = random.randint(1,6)
             die2 = random.randint(1,6)
