@@ -30,5 +30,7 @@ else:
         if (num+1)-star >= (arrow_head_width - (arrow_head_width-1)):
             print('*', end='')
         print()
+        
+ #not exactly sure how to correct your code, and your code works, but the chapter calls for i/j elements to accomplish this
 
     
